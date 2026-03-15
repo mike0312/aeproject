@@ -181,25 +181,25 @@ export default function IndexPage() {
           <div style={statCard}>
             <div style={{ color: "#9fb0c9", fontSize: "0.9rem" }}>Club</div>
             <div style={{ fontSize: "1.1rem", fontWeight: 800, marginTop: "0.35rem" }}>
-              San Antonio City SC
+              210 FC
             </div>
           </div>
           <div style={statCard}>
             <div style={{ color: "#9fb0c9", fontSize: "0.9rem" }}>Primary Position</div>
             <div style={{ fontSize: "1.1rem", fontWeight: 800, marginTop: "0.35rem" }}>
-              Midfielder
+              Forward
             </div>
           </div>
           <div style={statCard}>
             <div style={{ color: "#9fb0c9", fontSize: "0.9rem" }}>Secondary Position</div>
             <div style={{ fontSize: "1.1rem", fontWeight: 800, marginTop: "0.35rem" }}>
-              Forward
+              Left Winger
             </div>
           </div>
           <div style={statCard}>
             <div style={{ color: "#9fb0c9", fontSize: "0.9rem" }}>Graduation Year</div>
             <div style={{ fontSize: "1.1rem", fontWeight: 800, marginTop: "0.35rem" }}>
-              2031
+              2030
             </div>
           </div>
         </div>
@@ -255,12 +255,12 @@ export default function IndexPage() {
         >
           {[
             ["Name", "Alexis Elizondo"],
-            ["Club Team", "San Antonio City Soccer Club"],
-            ["Primary Position", "Midfielder"],
-            ["Secondary Position", "Forward"],
-            ["Preferred Foot", "Right"],
-            ["Jersey Number", "Add Number"],
-            ["Class Year", "2031"],
+            ["Club Team", "210 FC"],
+            ["Primary Position", "Forward"],
+            ["Secondary Position", "Left Winger"],
+            ["Preferred Foot", "Right/Left"],
+            ["Jersey Number", "16"],
+            ["Class Year", "2030"],
             ["Location", "San Antonio, Texas"],
           ].map(([label, value]) => (
             <div key={label} style={cardStyle}>
@@ -330,7 +330,7 @@ export default function IndexPage() {
             highlight platforms like YouTube or Hudl. Avoid posting sensitive information.
           </p>
           <div style={{ display: "flex", gap: "0.85rem", flexWrap: "wrap", marginTop: "1rem" }}>
-            <a href="mailto:your-email@example.com" style={buttonPrimary}>
+            <a href="mailto:michaelf.elizondo@gmail.com" style={buttonPrimary}>
               Email Parent / Coach Contact
             </a>
             <a href="https://instagram.com" style={buttonSecondary}>
